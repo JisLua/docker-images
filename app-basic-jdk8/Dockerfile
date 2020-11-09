@@ -1,4 +1,4 @@
-FROM lpicanco/java:8
+FROM openjdk:8-jdk-alpine
 
 RUN sed -i 's/http:\/\/dl-cdn.alpinelinux.org\/alpine\//http:\/\/mirrors.ustc.edu.cn\/alpine\//g' /etc/apk/repositories
 
